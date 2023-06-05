@@ -9,14 +9,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-}
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   font-weight: 700;
+// }
 
 a {
   color: darken($theme-color, 15%);
@@ -30,12 +30,12 @@ a {
 }
 
 p {
-  line-height: 1.5;
+  // line-height: 1.5;
 }
 
 .wrapper {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  // display: grid;
+  // grid-template-columns: repeat(10, 1fr);
   background: $theme-color;
   max-width: 1000px;
   margin: 0 auto;
@@ -44,8 +44,8 @@ p {
 }
 
 .sidebar-wrapper {
-  grid-column: span 3;
-  order: 2;
+  // grid-column: span 3;
+  // order: 2;
   background: $theme-color;
   color: #fff;
   a {
@@ -160,7 +160,7 @@ p {
 }
 
 .main-wrapper {
-  grid-column: span 7;
+  // grid-column: span 7;
   background: #fff;
   padding: 60px;
   .section-title {
