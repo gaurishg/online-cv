@@ -46,23 +46,26 @@ p {
 .sidebar-wrapper {
   // grid-column: span 3;
   // order: 2;
+  display: grid;
+  grid-template-columns: 60% 40%;
   background: $theme-color;
   color: #fff;
   a {
     color: #fff;
   }
   .profile-container {
-    padding: 30px;
+    
+    padding: 10px;
     //background: darken($theme-color, 10%);
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff;
   }
   .name {
-    font-size: 32px;
+    // font-size: 32px;
     font-weight: 900;
-    margin-top: 0;
-    margin-bottom: 10px;
+    // margin-top: 0;
+    // margin-bottom: 10px;
   }
   .tagline {
     color: rgba(256, 256, 256, 0.6);
@@ -99,7 +102,7 @@ p {
     }
   }
   .container-block {
-    padding: 30px;
+    padding: 20px;
   }
   .container-block-title {
     text-transform: uppercase;
